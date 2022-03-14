@@ -14,17 +14,17 @@ class Caneta {
     }
 
     rabiscar() {
-        if (this.tampada) {
+        if (this.#tampada) {
             document.write('<p>ERRO! Não posso rabiscar!</p>')
         } else {
             document.write('<p>Estou rabiscando...</p>')
         }
     }
     tampar() {
-        this.tampada = true
+        this.#tampada = true
     }
     destampar() {
-        this.tampada = false
+        this.#tampada = false
     }
 }
 
