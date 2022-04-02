@@ -1,4 +1,7 @@
 import Pessoa from "./Pessoa.js"
+import Functions from "../07-08/funcoes.js"
+
+const f = new Functions
 
 class Livro {
 // Atributos
@@ -42,6 +45,10 @@ Sendo lido por ${this.getLeitor().getNome()}`
         } else {
             this.setPagAtual(p)
         }
+    }
+
+    abrirAleatorio() {
+        this.setPagAtual(f.getRndInteger(0, this.getTotPaginas()))
     }
 
     avancarPag() {

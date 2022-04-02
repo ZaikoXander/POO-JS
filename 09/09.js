@@ -38,6 +38,8 @@ l[0].detalhes()
 printAtBrowser(l[0])
 
 l[1].detalhes()
+l[1].abrir()
+l[1].abrirAleatorio()
 printAtBrowser(l[1])
 
 l[2].detalhes()
