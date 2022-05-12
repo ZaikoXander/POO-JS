@@ -11,7 +11,7 @@ let p4 = new Funcionario
 
 // Utilização
 function printAtBrowser(PessoaObject) {
-    let body = document.getElementsByTagName('body')[0] // p1 instanceof Pessoa
+    let body = document.getElementsByTagName('body')[0]
     function PessoaAttributes() {
         return `
         nome: ${PessoaObject.getNome()}
